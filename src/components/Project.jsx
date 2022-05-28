@@ -1,7 +1,7 @@
 import Card from "./Card";
 import Shoes from "./image/shoes.png";
 import PHP from "./image/PHP.png";
-import Job from "./image/Job.png";
+import WordPress from "./image/WordPress.png";
 
 export default function Project() {
   return (
@@ -25,7 +25,7 @@ export default function Project() {
           <div className="grid-item proitem3">
             <a
               target="_blank"
-              href=""
+              href="https://www.vetbonnary.xyz/PHP"
               style={{ textDecoration: "none", color: "black" }}
             >
               <Card
@@ -40,11 +40,11 @@ export default function Project() {
           <div className="grid-item proitem6">
             <a
               target="_blank"
-              href=""
+              href="https://www.vetbonnary.xyz/wordpress/"
               style={{ textDecoration: "none", color: "black" }}
             >
               <Card
-                image={Job}
+                image={WordPress}
                 title="WordPress"
                 description="WordPress Website"
               />

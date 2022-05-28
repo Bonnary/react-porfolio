@@ -1,0 +1,31 @@
+.heroDc {
+  font-size: 2rem;
+}
+
+.heroName {
+  color: $AccentColor !important;
+  @extend .aquier;
+  font-size: 4rem;
+}
+
+.text-position {
+  margin-top: 15rem;
+}
+
+#Home {
+  overflow-x: hidden;
+  height: 100vh;
+  background: linear-gradient(-155deg, $PrimaryColor 50%, $SecondaryColor 50%);
+}
+
+@media all and (max-width: 768px) {
+  .heroImg {
+    height: 370px;
+  }
+  .text-position {
+    margin-top: 1rem;
+  }
+  .heroName {
+  font-size: 3rem;
+}
+}

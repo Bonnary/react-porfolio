@@ -1,0 +1,24 @@
+@import "./import/variables";
+@import "./import/Hero";
+@import "./import/Education";
+
+body {
+    // overflow-x: hidden;
+    background-color: $PrimaryColor;
+}
+
+nav{
+    background-color: $PrimaryColor !important;
+}
+
+
+.heading{
+    color: $SecondaryColor !important;
+    @extend .aquier;
+    font-size: 1.5rem;
+}
+
+.headingDc{
+    color: $SecondaryColor !important;
+    font-size: 1.5rem;
+}
